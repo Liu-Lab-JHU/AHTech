@@ -1,6 +1,6 @@
 # Automated-High-throughput-Electrochemical-Screening
 
-This is the supplementary files for the project titled ***AHTech***. 
+This is the supplementary files for the project titled ***AHTech: AHTech: An automated high-throughput experimentation platform for electrochemical analysis***. 
 
 **`Code`** Example codes that were used in the project.
 
@@ -14,4 +14,3 @@ This is the supplementary files for the project titled ***AHTech***.
 
 **`3D Printing Files`** *STL* file for the electrode holders.
 
-We appreciate if you can cite our paper: [xxx](xxx).
