@@ -9,7 +9,7 @@ to [`easy-biologic`](https://github.com/bicarlsen/easy-biologic).**
 #### `Full_operation.py` 
 This is an example code showing the full operation of the AHTech platform with the following workflow:
 
-![img.png](img.png)
+![Example workflow of AHTech platform](https://github.com/Liu-Lab-JHU/AHTech/blob/main/Images/Workflow.png)
 
 *For detailed description of the workflow, please refer to our paper.*
 
