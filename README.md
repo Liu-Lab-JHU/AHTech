@@ -1,4 +1,4 @@
-# Automated-High-throughput-Electrochemical-Screening
+# Automated-High-throughput-Electrochemical-Characterization
 
 This is the supplementary files for the project titled ***AHTech: AHTech: An automated high-throughput experimentation platform for electrochemical analysis***. 
 
