@@ -5,10 +5,11 @@ from __future__ import print_function
 import requests
 import json
 import logging
-import easy_biologic as ebl
-import easy_biologic.base_programs as blp
 import time
 import os
+import easy_biologic as ebl
+import easy_biologic.base_programs as blp
+
 
 
 # IP of OT-2 Robot
@@ -16,7 +17,7 @@ Robot_IP = "Robot IP"
 Headers = {"opentrons-version": "3"}
 
 # IP of potentiostat
-Biologic = ebl.BiologicDevice('Potentiostat IP')
+Biologic = ebl.BiologicDevice("Potentiostat IP")
 
 On = json.dumps({"on": True, "waitUntilComplete": True})
 Off = json.dumps({"on": False, "waitUntilComplete": True})

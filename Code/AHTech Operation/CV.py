@@ -7,17 +7,17 @@ import os
 
 
 # IP of potentiostat
-Biologic = ebl.BiologicDevice('Potentiostat IP')
+Biologic = ebl.BiologicDevice("Potentiostat IP")
 
 # Potentiostat Channels
 Channel = [0]
 
 # Data Saving Directory
-Path = '/data_path/'
+Path = "/data_path/"
 
 
 def CV(test):
-    save_path = Path + 'CV.csv'
+    save_path = Path + test + "_CV.csv"
     params = {
         'start': 0.5,
         'end': -0.25,

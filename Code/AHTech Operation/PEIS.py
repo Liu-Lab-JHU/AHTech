@@ -7,16 +7,16 @@ import os
 
 
 # IP of potentiostat
-Biologic = ebl.BiologicDevice('Potentiostat IP')
+Biologic = ebl.BiologicDevice("Potentiostat IP")
 
 # Potentiostat Channels
 Channel = [0]
 
 # Data Saving Directory
-Path = '/data_path/'
+Path = "/data_path/"
 def impedance(test):
     # Run OCP test
-    save_path = Path + 'OCV.csv'
+    save_path = Path + test + "_OCV.csv"
 
     params_ocv = {
         'time': 2,
@@ -29,7 +29,7 @@ def impedance(test):
         channels=Channel
     )
 
-    ocv.run('data')
+    ocv.run("data")
     ocv.save_data(save_path)
 
     voc = {
@@ -43,7 +43,7 @@ def impedance(test):
     }
 
     # Run PEIS test
-    save_path = Path + 'PEIS.csv'
+    save_path = Path + test + "_PEIS.csv"
 
     params_peis = {
         'voltage': list(voc.values())[0],
@@ -62,7 +62,7 @@ def impedance(test):
         channels=Channel
     )
 
-    peis.run('data')
+    peis.run("data")
     peis.save_data(save_path)
     Impedance_data = peis.set_impedance(save_path)
 

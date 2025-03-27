@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 '''
-Here is the example code about how to process the CV data collected from AHTech plarform. 
+Here is the example code about how to process the CV data collected from AHTech platform.
 Determination of capacity, Coulombic efficiency (CE) and onset potential were shown.
 
-Note that the default file name of data from AHTech platform is "row+col" (for example,A1). 
+Note that the default file name of data from AHTech platform is "row+col" (for example, A1).
 Please replace the corresponding code if you save your data with different naming convention.
 
 Please make sure Python3 and corresponding packages (Pandas, Numpy, Matplotlib, and Scipy)
@@ -23,7 +23,7 @@ save_path="save_path"	# Path to save data
 
 # 96-well plate as an example. Adjust if using other well plates.
 Row = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
-Col = ['1', '2', '3', '4', '5', '6', '7', '8',  '9', '10', '11','12']
+Col = ['1', '2', '3', '4', '5', '6', '7', '8',  '9', '10', '11', '12']
 
 Area = 3.14*(0.005*0.005)	# Area of disc WE. 100 𝜇m disc WE as an example. Adjust if necessary.
 
