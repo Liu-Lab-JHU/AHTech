@@ -1,6 +1,8 @@
-# Automated-High-throughput-Electrochemical-Screening
+# AHTech: An Automated High throughput Electrochemical Characterization Platform
 
-This is the supplementary files for the project titled ***AHTech***. 
+This is the supplementary files for the project titled ***A high-throughput 
+experimentation platform for data-driven discovery in 
+electrochemistry***. 
 
 **`Code`** Example codes that were used in the project.
 
