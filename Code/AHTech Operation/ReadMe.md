@@ -21,7 +21,7 @@ the HTTP API in case any errors occur**
 #### `Full_operation.py` 
 This is an example code showing the full operation of the AHTech platform with the following workflow:
 
-![Workflow.png](Code/AHTech Operation/img.png)
+![Workflow.png]([Code/AHTech Operation/img.png](https://github.com/Liu-Lab-JHU/AHTech/blob/main/Code/AHTech%20Operation/img.png))
 
 *For detailed description of the workflow, please refer to our paper.*
 
