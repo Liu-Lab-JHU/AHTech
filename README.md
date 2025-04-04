@@ -15,4 +15,4 @@ This repo contains the supplementary files for the project titled
 
 **`3D Printing Files`** *STL* file for the electrode holders.
 
-We appreciate if you can cite our paper: [xxx](xxx).
+We appreciate it if you can cite our paper: [Dian-Zhao Lin *et al.*, A high-throughput experimentation platform for data-driven discovery in electrochemistry. *Sci. Adv*. **11**, eadu4391(2025).](10.1126/sciadv.adu4391).
