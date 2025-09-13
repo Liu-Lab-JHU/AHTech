@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+For documentation, see http://${ROBOT_IP}:31950/redoc.
+"""
+
 from __future__ import print_function
 import requests
 import json
@@ -182,7 +186,7 @@ def labware_definitions(labware_path, url):
             )
     except:
         print(f"Request status:\n{r}\n{r.text}")
-
+        
 
 def pick_up_electrode(electrode_id, pipette, url):
 
