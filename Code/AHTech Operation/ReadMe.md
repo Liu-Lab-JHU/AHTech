@@ -2,7 +2,7 @@
 
 This folder includes corresponding example codes for the operation of AHTech platform.
 
-In this project, we used HTTP API to integrate the OT-2 with the EC-Biologic potentiostat. The codes showing here are 
+In this project, we used HTTP API to integrate the OT-2 with the EC-Biologic potentiostat. The codes shown here are 
 examples to demonstrate how to operate the AHTech platform. Please adjust the corresponding parameters before usage. 
 For more details of the electrochemical measure parameters tuning, please refer to 
 [`easy-biologic`](https://github.com/bicarlsen/easy-biologic).
@@ -21,12 +21,12 @@ the HTTP API in case any errors occur**
 #### `Full_operation.py` 
 This is an example code showing the full operation of the AHTech platform with the following workflow:
 
-![Workflow.png](Code/AHTech Operation/img.png)
+![Workflow.png](https://github.com/Liu-Lab-JHU/AHTech/blob/main/Images/Workflow.png)
 
 *For detailed description of the workflow, please refer to our paper.*
 
 #### `helper_function.py`
-We wrapped up the operation features that were used in this project to this helper function. 
+We wrapped up the operation features that were used in this project in this helper function. 
 
 #### `AHTech_run.py`
 This is an example code showing the full operation of the AHTech platform with importing the helper function.
@@ -35,4 +35,4 @@ This is an example code showing the full operation of the AHTech platform with i
 This is an example code showing how to run the CV experiment through the EC-Biologic potentiostat.
 
 #### `PEIS.py`
-This is an example code showing how to tun the PEIS experiment through the EC-Biologic potentiostat.
+This is an example code showing how to run the PEIS experiment through the EC-Biologic potentiostat.
